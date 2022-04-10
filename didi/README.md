@@ -48,6 +48,18 @@ client.run("My Var")
 ```
 
 這樣就好了!
+<details> 
+	<summary>"牛弟弟有甚麼功能嗎？"</summary>
+	<br>
+	<ul>
+	  <li>💬 跨群</li>
+	  <li>🖱️ 按鈕遊戲</li>
+    <li>🟦 🟫 🟩 正在製作 Widgets</li>
+  </ul>
+  <sub><blockquote>噓.. 你其實可以像我們<a>建議更多功能</a>!</blockquote></sub>
+</details>
+
+<hr></hr>
 
 <div align="center">
   <blockquote>下一篇： 使用 Javascript 畫龍點睛</blockquote>
