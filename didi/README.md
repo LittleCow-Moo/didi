@@ -9,7 +9,7 @@
 
 ## 作者們
 - AWeirdScratcher (Python)
-- CharlieMoomoo (Javscript)
+- CharlieMoomoo (Javascript)
 - Apple Inc. (Javascript)
 
 
