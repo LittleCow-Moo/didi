@@ -1,0 +1,6 @@
+# configuration
+blank_issues_enabled: false
+contact_links:
+  - name: 牛弟弟幫助
+    url: https://discord.gg/bQJyuAD9hw
+    about: 仍然有問題？歡迎加入我們的幫助伺服器！
