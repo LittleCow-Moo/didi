@@ -1,0 +1,55 @@
+name: 錯誤回報或建議
+description: 回報或建議一些事項
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - ['aweirdscratcher', 'charlie-moomoo']
+body:
+  - type: markdown
+    attributes:
+      value: |
+       感謝您撥空填寫此表單！
+       > 我們的 Discord: [在這裡](https://dsc.gg/cowgrassland)
+  - type: input
+    id: contact
+    attributes:
+      label: Email 聯繫
+      description: 我們會通知您最新的消息
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 回報或建議
+      description: 或是告訴我們，您希望我們提供什麼服務？
+      placeholder: 我認為…
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 您的系統
+      options:
+        - iOS
+        - Windows
+        - Linux
+        - 其他
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 主控台
+      description: 請複製貼上程式在主控台顯示的資料 (LOG)
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 勾選部分
+      description: 請詳讀並勾選以下：
+      options:
+        - label: 從來沒有人回報過此錯誤
+          required: true
+        - label: 牛弟弟很可愛
+          required: true
