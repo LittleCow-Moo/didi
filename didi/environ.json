@@ -1,4 +1,4 @@
 {
   "token": null,
-  "api-token": null, // api token is for the requests POST method :)
+  "api-token": null // api token is for the requests POST method :)
 }
