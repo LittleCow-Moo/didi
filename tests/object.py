@@ -9,7 +9,7 @@ class Identify(object):
     print(f"The username is {self.user['username']}, and the ID is {self.user['id']}")
     
 UserObject = Identify({
-  "username": "AWeirdScratcher#1744",
+  "username": "AWeirdDev#1744",
   "id": 123456789
 })
 UserObject.show()
